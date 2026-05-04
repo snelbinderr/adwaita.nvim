@@ -157,6 +157,8 @@ M.gen_colors = function()
 
     if vim.g.adwaita_transparent then
         colors.libadwaita_dark = 'none'
+        colors.light_1_b = 'none'
+        colors.light_2_b = 'none'
     end
 
     return colors
